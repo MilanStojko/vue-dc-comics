@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500&display=swap');
+@import './partials/variables.scss';
+
+/* ------------------------
+        RESET
+------------------------ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ------------------------
+        GLOBALS
+------------------------ */
+/* ------------------------
+        CONTAINERS
+------------------------ */
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ------------------------
+        TYPO
+------------------------ */
+body{
+    font-family: 'Readex Pro', sans-serif;
+}
