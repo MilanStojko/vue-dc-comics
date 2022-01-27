@@ -63,10 +63,11 @@ export default {
         background-image: url("../assets/img/footer-bg.jpg");
         background-position: center;
         background-size: cover;
-        height: 400px;
+        height: 450px;
         overflow-y: hidden;
 
         .container{
+            height: 450px;
             img{
                 height: 600px;
                 width: 600px;
@@ -75,10 +76,29 @@ export default {
             nav{
                 display: flex;
 
+                div{
+                    margin: 0 20px;
+                }
+
                 h3{
                     font-weight: bold;
                     color: white;
-                    
+                    padding: 12px 0;
+                    font-size: 1.5rem;
+
+                }
+
+                ul{
+                    list-style: none;
+
+                    li{
+                        padding: 5px 0;
+
+                        a{
+                            text-decoration: none;
+                            color: #5b5853;
+                        }
+                    }
                 }
             }
         }
